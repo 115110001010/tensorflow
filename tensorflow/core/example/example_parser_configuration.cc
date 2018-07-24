@@ -150,7 +150,7 @@ Status ExtractExampleParserConfiguration(
     config.shapes_output_tensor_name =
         strings::StrCat(node_output_prefix, shapes_offset);
   }
-
+//keke5201314
   for (int i = 0; i < num_dense; ++i) {
     int output_idx = dense_values_output_start + i;
     (*fixed_len_features)[i].values_output_tensor_name =
